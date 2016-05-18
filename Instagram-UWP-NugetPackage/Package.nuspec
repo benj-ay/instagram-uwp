@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Instagram_UWP</id>
+    <version>1.0.1</version>
+    <title>Instagram-UWP</title>
+    <authors>benj-ay</authors>
+    <owners></owners>
+    <description>
+      This package contains a Windows Runtime component that provides an interface to the Instagram web API.
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      This package contains a Windows Runtime component that provides an interface to the Instagram web API.
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://nuget.org/packages/Instagram_UWP</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <copyright>Copyright Benjamin Thomas 2016</copyright>
+    <dependencies>
+        <group targetFramework="net40">
+        </group>
+    </dependencies>
+    <references></references>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>
