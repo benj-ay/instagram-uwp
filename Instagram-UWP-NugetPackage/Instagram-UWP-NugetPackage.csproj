@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="content\" />
+    <Folder Include="lib\uap10.0\" />
     <Folder Include="src\" />
   </ItemGroup>
   <ItemGroup>
