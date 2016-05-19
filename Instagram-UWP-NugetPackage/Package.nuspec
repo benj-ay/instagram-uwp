@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Instagram_UWP</id>
-    <version>1.0.1</version>
+    <version>1.0.4</version>
     <title>Instagram-UWP</title>
     <authors>benj-ay</authors>
     <owners></owners>
@@ -23,13 +23,13 @@
     <dependencies>
         <group targetFramework="net40">
         </group>
+      <group targetFramework="netcore45"/>
     </dependencies>
     <references></references>
     <tags></tags>
   </metadata>
   <files>
-    <file src="lib\" target="lib" />
-    <file src="tools\" target="tools" />
-    <file src="content\" target="content" />
+        <file target="lib\uap10.0\CanIHazCodes.ServiceIntegration.Instagram.winmd"               
+              src="..\Instagram-UWP\bin\Release\CanIHazCodes.ServiceIntegration.Instagram.winmd" />
   </files>
 </package>
